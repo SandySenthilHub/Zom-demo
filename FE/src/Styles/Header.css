@@ -1,0 +1,41 @@
+.Header{
+    background-color:red;
+}
+
+
+.logo {
+    margin-left: 5px;
+    height: 70px;
+    width: 72px;
+    border-radius: 60px;
+    font-size: 50px;
+    padding-left: 8px;
+    background-color: white;
+    cursor: pointer;
+
+}
+.User{
+    /* margin-right:40px;
+    margin-top:10px; */
+    margin:5px 0 5px 0px;
+}
+.button {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.Login, .Signin{
+    background:transparent;
+    color:white;
+    font-size: 22px;
+    float:right;
+    margin:10px 5px 5px 0px;
+
+
+
+}
+
+.Signin{
+    border:2px solid white;
+    border-radius:10px;
+}

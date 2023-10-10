@@ -1,0 +1,388 @@
+.detail-img {
+  margin: 20px 0px 10px 60px;
+  height: 500px;
+  width: 90%;
+}
+
+.gallery-button {
+  margin: 0px 0px 10px 60px;
+  background: transparent;
+  border: none;
+  box-shadow: 0px 0px 3px 1px rgb(37, 1, 51);
+
+}
+.restaurant-name2{
+  font-weight: bolder;
+
+}
+.restaurant-name {
+  margin: 20px 0px 10px 100px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  font-weight: bolder;
+  font-size: 50px;
+
+
+}
+
+.order-button {
+  background: transparent;
+  border: none;
+  margin: 15px 0px 10px 20px;
+  box-shadow: 0px 0px 3px 1px rgb(37, 1, 51);
+  display:block;
+  font-size: 20px;
+  padding:5px;
+}
+
+.btn-box {
+  margin: 20px 0px 10px 62px;
+
+}
+
+.btn-1,
+.btn-2 {
+  background: transparent;
+  font-size: 35px;
+  padding: 5px;
+  width: 200px;
+  border: none;
+  margin-right: 10px;
+  box-shadow: 0px 0px 3px 1px rgb(37, 1, 51);
+}
+
+.contentDetails {
+  padding:10px 0px 10px 30px;
+  box-shadow: 0px 0px 3px 1px rgb(37, 1, 51);
+  height: 180px;
+  width: 70%;
+  margin: -5px 0px 10px 61px;
+
+}
+.restaurant-name2{
+margin-left:20px;
+letter-spacing: 3px;
+
+}
+
+.cuisine-detail,
+.cuisine-item,
+.cost{
+font-size: 30px;
+font-weight: bolder;
+display: inline-block;
+letter-spacing: 3px;
+}
+.phone-number,
+.number,
+.address{
+  font-size: 30px;
+font-weight: bolder;
+margin-left:20px;
+letter-spacing: 3px;
+}
+
+.address{
+  font-size:20px ;
+letter-spacing: 1px;
+
+}
+.carousel-image{
+  height:300px;
+}
+
+.itemDiv{
+  display:inline-block;
+}
+.restaurant-menu-title{
+  font-size:35px;
+  margin:-37px 0px 10px 445px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.Gobi-Manchurian,
+.menu-price{
+  font-size:20px;
+  margin:10px 0 0 10px;
+}
+
+.menu-content{
+width:660px;
+margin:0 20px 10px 10px;
+
+
+}
+
+.menu-container{
+box-shadow: 0 0 2px 1px white;
+width:760px;
+margin:auto auto;
+}
+.add-button{
+cursor:pointer;
+
+}
+.Rectangle-3352{
+  margin: 30px 10px 0 260px;
+}
+.Rectangle-3353{
+margin:20px;
+box-shadow: 0 0 3px 1px white;
+padding: 3px;
+cursor:pointer;
+}
+
+
+.clearCartDiv{
+box-shadow: 0 0 3px 1px white;
+  /* border-radius:10px; */
+  margin:auto auto;
+  width:50%;
+}
+.cartContent
+{
+  text-align: center;
+}
+.cart{
+  /* margin:-10px 0 0 170px; */
+  text-align: center;
+  font-size: 50px;
+
+}
+.cartitem{
+  width:70%;
+  margin:auto auto;
+}
+.carousel-button{
+  /* background: transparent; */
+  margin:10px 0 0 10px;
+}
+.cartBtn{
+  padding:5px;
+  border:none;
+  background: transparent;
+  box-shadow: 0 0 3px 1px white;
+  color:white;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 10px;
+  margin:20px
+}
+.menuPrice{
+  /* display: inline-block; */
+  float: right;
+  margin:20px 0 0px 0;
+
+}
+
+@media screen and (min-width:320px ) and (max-width:768px) {
+  .detail-img {
+    margin: 20px 0px 10px 10px;
+    height: 300px;
+    width: 93%;
+  }
+  .gallery-button {
+    margin: 0px 0px 10px 10px;
+    display: none;
+  }
+  .restaurant-name {
+    margin: 20px 0px 10px 60px;
+    font-size: 20px;  
+  }
+
+  .btn-box {
+    margin: 20px 0px 10px 10px;
+  
+  }
+  .btn-1,
+  .btn-2 {
+  font-size: 25px;
+  padding: 3px;
+  width: 105px;
+  margin-right: 10px;
+}
+.contentDetails {
+ 
+  margin: -5px 0px 10px 10px;
+  width:95%;
+  padding:10px 0px 10px 10px;
+
+}
+.cuisine-detail,
+.cuisine-item,
+.cost{
+font-size: 20px;
+letter-spacing: 0px;
+}
+.restaurant-name2{
+  font-size: 30px;
+
+}
+.phone-number,
+.number,
+.address{
+  font-size: 20px;
+margin-left:20px;
+letter-spacing: 0px;
+}
+.order-button {
+  background: transparent;
+  border: none;
+  margin: 15px 0px 0px 10px;
+  box-shadow: 0px 0px 3px 1px rgb(37, 1, 51);
+  display:block;
+  font-size: 18px;
+  padding:5px;
+}
+.restaurant-menu-title{
+  font-size:25px;
+  margin:-37px 0px 30px 45px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.itemDiv{
+  display:block;
+}
+.menu-content{
+  width:270px;
+  margin:0 20px 10px 10px;
+  
+  }
+.menu-container{
+  box-shadow: 0 0 2px 1px white;
+  width:288px;
+  margin:0 0 0 -25px;
+  }
+  .Gobi-Manchurian,
+.menu-price{
+  font-size:20px;
+  margin:0px 0 0 10px;
+  
+}
+.add-button{
+
+  margin: 0 0 20px 43%;
+  
+}
+.menuImage{
+  margin:0 0 10px 40%;
+  display:inline-block;
+}
+.Rectangle-3352{
+  margin: 10px 10px 0 0px;
+}
+
+
+.clearCartDiv{
+   box-shadow: 0 0 3px 1px white;
+    /* border-radius:10px; */
+    width:100%;
+    padding-left: 10px;
+  }
+  .cartContent
+  {
+    text-align: center;
+  }
+  .cart{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: -15px;
+
+  
+  }
+  .cartitem{
+    width:100%;
+    margin:auto auto;
+    padding-bottom: 10px;
+  }
+  .carousel-button{
+    margin:5px 0 0px -5px;
+  }
+  .menuPrice{
+    /* margin-top: 20px; */
+    /* display:block; */
+    /* float:center; */
+    margin:-30px 0px 0 80px;
+    display: block;
+    float:none;
+
+  }
+  .menuCon{
+    margin-top: -50px;
+  }
+  .cartBtn{
+    margin:5px 0 0 20px
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .imgD{
+    width:95%;
+    height:450px;
+    margin:10px 30px;
+}
+
+.order{
+    width:fit-content;
+    padding:5px;
+    background-color:red;
+    color:white;
+    border-radius:7px;
+    border:none;
+    float:right;
+    margin-right: 60px;
+}
+
+.headingD{
+    margin: 20px 0 30px 30px;
+}
+
+
+.tab{
+    margin-left: -10px;
+}
+
+.tab ul{
+    list-style-type: none;
+    margin-left:60px;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.tab ul li {
+    display:inline;
+    text-align:centre;
+    padding-left: 40px;
+
+}
+
+.uline{
+    border:1px solid red;
+    width:87%;
+    margin-left:130px;
+}
+.contents{
+    display:none;
+
+
+}
+
+.showContent{
+    display:block;
+    margin-left:130px;
+
+} */

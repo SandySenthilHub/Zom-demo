@@ -1,0 +1,163 @@
+
+
+* {
+    font-family: geometric sans-serif;
+}
+
+/* WALLPAPER */
+.bgimg{
+    background-image: url('https://c0.wallpaperflare.com/preview/184/811/591/blur-bread-rolls-counter-cup.jpg');
+    height:470px;
+    /* width:100%; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 20px;
+}
+
+.wLogo {
+    margin:25px auto auto auto;
+    height: 70px;
+    width: 72px;
+    border-radius: 60px;
+    font-size: 50px;
+    padding-left: 8px;
+    background-color: white;
+
+}
+
+.heading {
+    font-size: 45px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width:480px ) {
+    .heading{
+        font-size: 30px;
+    }
+
+}
+
+.search{
+    align-items: center;
+    text-align: center;
+}
+
+.loc{
+    display: inline;
+   
+
+}
+.box1{
+    padding: 10px;
+    width:280px;
+
+}
+
+.box2{
+    padding: 7px;
+    width:300px;
+}
+.searchIcon{
+    margin-left: -30px;
+}
+
+.showSugg,
+.no-result-message{
+    box-shadow: 0px 2px 3px 1px grey;
+    background-color: whitesmoke;
+    margin-bottom:10px;
+    padding: 5px;
+    width:300px;
+    margin:auto auto;
+}
+
+/* QUICK SEARCH */
+
+.flick,.sub{
+    margin-left:15px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.sub{
+    font-size: 20px;
+
+}
+.mealtype-heading{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.mealtype-content{
+    font-size: 20px;
+
+}
+.home-img{
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto;
+    box-shadow:1px 2px 9px grey;
+    gap:5px 5px;
+    cursor: pointer;
+}
+
+.name{
+    width:170px;
+}
+
+.mealItems{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    column-gap:50px;
+    row-gap:50px;
+    margin:auto auto;
+
+}
+
+@media screen and (min-width:481px ) and (max-width:768px ) {
+    .mealItems{
+            grid-template-columns:auto  ;
+    }
+
+}
+@media screen and (min-width:769px ) and (max-width:1024px ) {
+    .mealItems{
+            grid-template-columns:auto auto ;
+    }
+
+}
+
+@media screen and (max-width:480px ) {
+    .mealItems{
+            grid-template-columns:auto  ;
+    }
+
+    .box1{
+        padding: 10px;
+        width:240px;
+    
+    }
+    .box2{
+        padding: 7px;
+        width:240px;
+        margin-right:15px ;
+        /* margin-left:-10px; */
+
+    }
+    .searchIcon{
+        /* margin-left: -20px; */
+        display: none;
+    }
+    .showSugg,
+    .no-result-message{
+ 
+        width:240px;
+    }
+}
